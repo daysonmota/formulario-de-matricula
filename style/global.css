@@ -36,6 +36,7 @@ body{
     overflow: hidden; /*Não vai ter rolagem*/
     font: var(--text);
     color: var(--text-secondary);
+    
 }
 
 h1, h2 {
