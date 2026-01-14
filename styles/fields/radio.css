@@ -4,12 +4,9 @@ label+.radio-wrapper {
 
 .radio-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); /*encaixa automático nas colunas com minimo e máximo de coluna*/
+    grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr));
     gap: 1rem;
-
 }
-
-
 
 .radio-inner {
     border: 1px solid var(--stroke-default);
@@ -23,7 +20,6 @@ label+.radio-wrapper {
 
     position: relative;
 
-    /*Limpa os campos dentro do elemento pai*/
     & input,
     & input:focus,
     & input:hover {
@@ -34,6 +30,7 @@ label+.radio-wrapper {
 
     .radio-image {
         background-image: url(../../assets/icons/radio-default.svg);
+        background-repeat: no-repeat;
 
         width: 1.5rem;
         height: 1.5rem;
@@ -43,8 +40,8 @@ label+.radio-wrapper {
         left: .5rem;
     }
 
-    &:hover{
-     &:focus-within { /*Enquanto recebe foco */
+    &:hover,
+    &:focus-within {
         border: 1px solid var(--stroke-highlight);
 
         & .radio-image {
@@ -57,8 +54,6 @@ label+.radio-wrapper {
 
         & .radio-image {
             background-image: url(../../assets/icons/radio-checked.svg);
-            background-repeat: no-repeat;
         }
     }
-}
 }
