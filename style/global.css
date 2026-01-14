@@ -32,8 +32,8 @@
 }
 
 
-body{
-    overflow: hidden; /*Não vai ter rolagem*/
+form{
+    overflow: hidden; /* Não vai ter rolagem */
     font: var(--text);
     color: var(--text-secondary);
     
