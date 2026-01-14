@@ -101,7 +101,7 @@
 
             </div>
 
-             <div class="flex">
+            <div class="flex">
               <div class="input-wrapper flex-2">
                 <label for="city">Cidade</label>
                 <input type="text" name="city" id="city" value="São Paulo" placeholder="São Paulo" disabled>
@@ -117,7 +117,7 @@
 
           <fieldset class="gardian">
             <legend>Informações do Responsável</legend>
-            
+
             <div class="input-wrapper">
               <label for="gardian-name">Nome do responsável</label>
               <input type="text" id="gardian-name" name="gardian-name" placeholder="Miguel Roberto Alves">
@@ -138,35 +138,78 @@
               </div>
             </div>
           </fieldset>
-          
+
           <fieldset class="enroll-options">
             <legend>Opções de matrícula</legend>
 
             <div class="select-wapper">
               <label>Selecione o turno de estudo</label>
-              
+
               <div class="radio-wrapper">
-                
+
                 <div class="radio-inner">
                   <div class="radio-image"></div>
-                    <input type="radio" name="sun" value="morning" id="morning">
-                    <img src="assets/icons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
-                    <label for="morning">Manhã</label>
+                  <input type="radio" name="sun" value="morning" id="morning">
+                  <img src="assets/icons/sun-cloud-02.svg" alt="ícone de sol com nuvem">
+                  <label for="morning">Manhã</label>
                 </div>
 
                 <div class="radio-inner">
                   <div class="radio-image"> </div>
-                    <input type="radio" name="study-shift" value="evening" id="evening">
-                    <img src="assets/icons/sun-02.svg" alt="ícone de sol da tarde">
-                    <label for="evening">Tarde</label>
+                  <input type="radio" name="study-shift" value="evening" id="evening">
+                  <img src="assets/icons/sun-02.svg" alt="ícone de sol da tarde">
+                  <label for="evening">Tarde</label>
                 </div>
               </div>
-            </div>
 
+              <div class="input-wapper">
+                <label style="margin-top: 1rem;">Em qual esporte você gostaria de inscrever seu filho?</label>
+
+                <div class="radio-wrapper">
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="basquete" id="basquete">
+                    <img src="assets/icons/football.svg" alt="ícone de basquete">
+                    <label for="basquete">Basquete</label>
+                  </div>
+
+
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="natacao" id="natacao">
+                    <img src="assets/icons/swimming.svg" alt="ícone de natacao">
+                    <label for="natacao">natacao</label>
+                  </div>
+
+
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="yoga" id="yoga">
+                    <img src="assets/icons/yoga-02.svg" alt="ícone de yoga">
+                    <label for="yoga">Yoga</label>
+                  </div>
+
+
+
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="volley" id="volley">
+                    <img src="assets/icons/volleyball.svg" alt="ícone de volley">
+                    <label for="footbal">volley</label>
+                  </div>
+
+                  <div class="radio-inner">
+                    <div class="radio-image"></div>
+                    <input type="radio" name="boxe" id="boxe">
+                    <img src="assets/icons/boxing-glove-01.svg" alt="ícone de boxe">
+                    <label for="boxe">Boxe</label>
+                  </div>
+                </div>
+              </div>
           </fieldset>
-          
-
-
 
         </form>
       </div>

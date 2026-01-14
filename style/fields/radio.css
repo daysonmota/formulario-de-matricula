@@ -6,7 +6,10 @@ label+.radio-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(7.5rem, 1fr)); /*encaixa automático nas colunas com minimo e máximo de coluna*/
     gap: 1rem;
+
 }
+
+
 
 .radio-inner {
     border: 1px solid var(--stroke-default);
@@ -20,6 +23,7 @@ label+.radio-wrapper {
 
     position: relative;
 
+    /*Limpa os campos dentro do elemento pai*/
     & input,
     & input:focus,
     & input:hover {
@@ -53,9 +57,8 @@ label+.radio-wrapper {
 
         & .radio-image {
             background-image: url(../../assets/icons/radio-checked.svg);
+            background-repeat: no-repeat;
         }
-
-      
     }
 }
 }
